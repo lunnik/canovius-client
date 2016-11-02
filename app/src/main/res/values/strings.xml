@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">CanOvius Rastreo</string>
+
+    <string name="actividadManager">Usuario</string>
+    <string name="user">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="login">Entrar</string>
+    <string name="action_settings">settings</string>
+    <string name="name">Canovius GPS Lite</string>
+    <string name="delete">Elimimar</string>
+    <string name="emei">Emei:</string>
+    <string name="dic">Direccion:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="model">Modelo:</string>
+    <string name="lat">Latitud:</string>
+    <string name="lon">Longitud:</string>
+    <string name="resgistar">Registar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre_registro">Nombre</string>
+    <string name="email_registro">Email</string>
+    <string name="contrasena_registro">contraseña</string>
+    <string name="registro_login"><u>Registrase</u></string>
+    <string name="regresar">regresar</string>
+    <string name="maraca_agua_email"> usuario o mail</string>
+    <string name="astreriscos">***********</string>
+    <string name="guadar_menu">Guardar</string>
+    <string name="reg_titulo">Resgistrarse</string>
+    <string name="sliding_drawe_titulor">Detalles</string>
+    <string name="login_tittle">Informacion del dispositivo</string>
+    <string name="estado_del_gps">Estado del GPS</string>
+    <string name="log_out">Cerrar sesion</string>
+    <string name="salir">Salir</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="descripcion">Para agregar este dispositivo debes registarte en Canovious Manager  </string>
+    <string name="msj_subtitulo">Dispositivo agregado</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="msg_progress_wait">Espere un momomento</string>
+    <string name="gps_msg_habilitar">Habilitar GPS</string>
+    <string name="gps_msg_deshabilitar">El GPS esta deshabilidatdo en tu dispositivo ¿quieres habilitarlo?</string>
+    <string name="msg_progress_alert">¡No hay conexion!</string>
+    <string name="msg_progress_sin_intenet">Dedes tener acceso a internet</string>
+    <string name="msg_sin_intenet">Dedes tener acceso a internet</string>
+    <string name="msg_si">Aceptar</string>
+    <string name="sin_servidor">No hay acceso al servidor</string>
+    <string name="sin_acceso">No se puede acceder al servidor; intentelo nuevamente</string>
+    <string name="msg_no">Cancenlar</string>
+    <string name="string_titulo_notificacion">Autosincronización</string>
+    <string name="string_mensaje_notificacion">Modificar ajustes de Autosincronización </string>
+    <string name="distance">Distancia:</string>
+    <string name="primer_registro">¿Ya estas registrado?</string>
+    <string name="ventajas">Ventajas</string>
+    <string name="decription_dialog">Para acceder debes primero tener un cuenta en Canovius GPS</string>
+    <string name="description_ventajas">Con esta version tienes mas control sobre tus dispositivos ya que puedes programar el tiempo de cada cuando quieres que se actualice la ubicación  de tu dispositivo</string>
+    <string name="cuenta_ok">Ya tengo una cuenta!</string>
+    <string name="exit">Salir</string>
+    <string name="canovius">Canovius Gps</string>
+</resources>

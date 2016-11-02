@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lionsquare.canoviusclient.servicios.LoginActivity">
+    <item
+        android:id="@+id/gps"
+        android:orderInCategory="100"
+        android:title="@string/canovius"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/salir"
+        android:title="@string/salir"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

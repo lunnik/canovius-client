@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">@color/bar_color</item>
+        <item name="android:windowBackground">@color/window_color</item>
+        <item name="android:textColorPrimary">@color/text_color</item>
+        <item name="android:actionMenuTextColor">@android:color/black</item>
+    </style>
+
+
+    <style name="ActivityStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary_act</item>
+        <item name="colorPrimaryDark">@color/primary_dark_act</item>
+        <item name="colorAccent">@color/accent_act</item>
+        <item name="android:navigationBarColor">@color/bar_color_act</item>
+        <item name="android:windowBackground">@color/window_color_act</item>
+        <item name="android:textColorPrimary">@color/text_color_act</item>
+        <item name="android:actionMenuTextColor">@android:color/black</item>
+
+    </style>
+
+
+    <style name="HeaderBar">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:elevation">@dimen/headerbar_elevation</item>
+    </style>
+
+    <style name="AppTheme.TranslucentSystemBars" parent="ActivityStyle">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+
+    <style name="AppCompat.TranslucentSystemBars" parent="ActivityStyle">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+
+    </style>
+
+    <style name="appbar">
+        <item name="android:background">@drawable/primary_round</item>
+    </style>
+
+    <style name="ButtonMaterial">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:translationZ">1dp</item>
+        <item name="android:background">@drawable/primary_round</item>
+    </style>
+
+
+    <style name="estiloTextView" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primary_dark_act</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">15dp </item>
+    </style>
+
+    <style name="estiloEditText" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primary_dark_act</item>
+        <item name="android:textSize">15dp </item>
+
+
+    </style>
+
+    <style name="estiloButton" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primary_dark_act</item>
+        <item name="android:textSize">15dp </item>
+
+
+    </style>
+</resources>

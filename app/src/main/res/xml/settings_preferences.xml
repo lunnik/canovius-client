@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+
+
+    <PreferenceCategory
+        android:title="Autosincronización">
+
+        <CheckBoxPreference android:title="Activar Autosincronización"
+            android:defaultValue="false"
+            android:summary="Actualiza la ubicacion de este disposivo cada cierto tiempo"
+            android:key="applicatioSync" />
+
+        <ListPreference
+            android:dialogTitle="Selecciona cada cuando se actulize el dispositivo"
+            android:entries="@array/timpo_autosync"
+            android:entryValues="@array/timpo_sync"
+            android:key="autosincronización"
+            android:summary="Confingure el timepo de utosincronización"/>
+
+
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

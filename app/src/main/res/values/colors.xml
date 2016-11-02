@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="accent">#2196F3</color>
+    <color name="bar_color">#BBDEFB</color>
+    <color name="window_color">#FFF</color>
+    <color name="text_color">#FFF</color>
+    <!--- Azul Gris -->
+
+    <color name="primary_600">#000000</color>
+
+
+    <color name="primary_dark_act">#2274b6</color>
+    <color name="primary_act">#2196F3</color>
+    <color name="text_color_act">#ffffff</color>
+    <color name="accent_act">#2196F3</color>
+    <color name="window_color_act">#e2dbdb</color>
+    <color name="bar_color_act">#050505</color>
+
+
+    <color name="primary_dark_act_reg">#263238</color>
+    <color name="primary_act_reg">#607D8B</color>
+    <color name="text_color_act_reg">#ECEFF1</color>
+    <color name="accent_act_reg">#e90000</color>
+    <color name="window_color_act_reg">#B0BEC5</color>
+    <color name="bar_color_act_reg">#263238</color>
+
+
+    <color name="gris">#2196F3</color>
+    <color name="transparent"> #00000000</color>
+    <color name="dark_color">#000000</color>
+    <color name="white_color">#ffffff</color>
+    <color name="menu_color">#000000</color>
+    <color name="background_banner">#607D8B</color>
+    <color name="background_lista">#000000</color>
+    <color name="background_boton">#607D8B</color>
+
+    <color name="list_color">#ff0000</color>
+    <color name="background_drawer">#151515</color>
+    <color name="edit_text_fragment">#664f41</color>
+    <color name="link_registro">#0252c2</color>
+
+</resources>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.lionsquare.canoviusclient.Location">
+
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:title="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="5dp"
+        android:background="@color/primary_act"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+
+
+    </android.support.v7.widget.Toolbar>
+
+     <fragment
+         android:id="@+id/map"
+         android:name="com.google.android.gms.maps.SupportMapFragment"
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" >
+         <SlidingDrawer
+             android:id="@+id/slidingDrawer"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:content="@+id/content"
+             android:gravity="center_horizontal"
+             android:handle="@+id/handle"
+             android:orientation="vertical"
+             android:rotation="180" >
+             <LinearLayout
+                 android:id="@+id/handle"
+                 android:layout_width="match_parent"
+                 android:layout_height="60dp"
+                 android:gravity="center"
+                 android:background="@color/primary_act"
+                 android:orientation="vertical" >
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:orientation="horizontal" >
+                     <ImageView
+                         android:id="@+id/imageViewDrawer1"
+                         android:layout_width="30dp"
+                         android:layout_height="15dp"
+                         android:layout_gravity="center"
+                         android:rotation="180"
+                         android:src="@drawable/down" />
+
+                     <TextView
+                         android:id="@+id/textView2"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:rotation="180"
+                         android:text="@string/sliding_drawe_titulor"
+                         android:gravity="center"/>
+                     <ImageView
+                         android:id="@+id/imageViewDrawer2"
+                         android:layout_width="30dp"
+                         android:layout_height="15dp"
+                         android:layout_gravity="center"
+                         android:rotation="180"
+                         android:src="@drawable/down" />
+                 </LinearLayout>
+             </LinearLayout>
+             <RelativeLayout
+                 android:id="@+id/content"
+                 android:background="@drawable/blue_background"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:rotation="180">
+
+
+                 <android.support.v7.widget.CardView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:elevation="25dp"
+                     android:layout_margin="@dimen/card_margin">
+                     <LinearLayout
+                         style="@style/Widget.CardContent"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textColor="@color/dark_color"
+                             android:text="@string/estado_del_gps"
+                             android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                         <LinearLayout
+                             android:orientation="vertical"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             style="@style/Widget.CardContent">
+
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="@color/dark_color"
+                                 android:text="@string/lat"/>
+
+
+                             <TextView
+                                 android:id="@+id/lat"
+                                 android:layout_marginLeft="5dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="@color/dark_color" />
+
+
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="@color/dark_color"
+                                 android:text="@string/lon"/>
+
+
+                             <TextView
+                                 android:id="@+id/lon"
+                                 android:layout_marginLeft="5dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="@color/dark_color" />
+
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="@color/dark_color"
+                                 android:text="@string/distance"/>
+
+
+                             <TextView
+                                 android:id="@+id/distancia"
+                                 android:layout_marginLeft="5dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="@color/dark_color" />
+                         </LinearLayout>
+                     </LinearLayout>
+                 </android.support.v7.widget.CardView>
+
+                 <LinearLayout
+                     android:orientation="horizontal"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentBottom="true"
+                     android:layout_gravity="bottom|center">
+                     <LinearLayout
+                         android:id="@+id/maps_banner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal">
+
+                     </LinearLayout>
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:orientation="horizontal"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentBottom="true"
+                     android:layout_gravity="bottom|left">
+                     <LinearLayout
+                         android:id="@+id/maps_banner2"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal">
+
+                     </LinearLayout>
+                 </LinearLayout>
+
+             </RelativeLayout>
+         </SlidingDrawer>
+
+
+
+     </fragment>
+
+
+    <include layout="@layout/content_location" />
+
+
+
+
+ </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/ic_location" />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
